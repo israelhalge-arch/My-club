@@ -1,0 +1,30 @@
+/* style.css - shared across pages */
+* { box-sizing: border-box; }
+body {
+  margin:0; font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg,#ff6b6b,#ff9a9e);
+  color:#fff; -webkit-font-smoothing:antialiased;
+}
+.header {
+  padding:14px 16px; display:flex; align-items:center; justify-content:space-between;
+  background: rgba(0,0,0,0.18);
+}
+.brand { font-weight:700; font-size:18px; }
+.nav a { color:#fff; text-decoration:none; margin-left:12px; font-weight:600; }
+.container { padding:20px; max-width:900px; margin:18px auto; }
+.hero {
+  background: rgba(255,255,255,0.06); padding:18px; border-radius:10px; text-align:center;
+}
+.btn {
+  display:inline-block; margin:10px 6px; padding:10px 16px; border-radius:8px;
+  background:#111; color:#fff; text-decoration:none; font-weight:700;
+}
+.card { background: rgba(255,255,255,0.06); padding:12px; border-radius:8px; margin:12px 0; }
+.form { background: rgba(0,0,0,0.14); padding:16px; border-radius:8px; max-width:420px; margin:12px auto; }
+.input { width:100%; padding:10px; margin-bottom:10px; border-radius:6px; border:0; }
+.small { font-size:13px; color:#eee; opacity:0.9; }
+.footer { text-align:center; padding:14px 8px; background: rgba(0,0,0,0.12); font-size:14px; margin-top:22px; }
+@media (max-width:520px) {
+  .nav a{ display:inline-block; margin-left:8px; font-size:14px; }
+  .brand{ font-size:16px; }
+}
