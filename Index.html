@@ -1,75 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>My Club</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #ff4b2b, #ff416c);
-      color: white;
-      text-align: center;
-    }
-    header {
-      padding: 20px;
-      background: rgba(0, 0, 0, 0.3);
-    }
-    header h1 {
-      margin: 0;
-      font-size: 28px;
-    }
-    .btn {
-      display: inline-block;
-      margin: 15px;
-      padding: 12px 25px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      background: #222;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #444;
-    }
-    .section {
-      padding: 40px 20px;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.1);
-      margin: 15px auto;
-      padding: 20px;
-      border-radius: 12px;
-      max-width: 400px;
-    }
-    footer {
-      background: rgba(0, 0, 0, 0.3);
-      padding: 15px;
-      font-size: 14px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <header>
-    <h1>Welcome to My Club 🎉</h1>
-    <a href="#" class="btn">Login</a>
-    <a href="#" class="btn">Register</a>
-  </header>
-
-  <div class="section">
-    <h2>🔥 Features</h2>
-    <div class="card">Secure and Fast Platform</div>
-    <div class="card">Exciting Games & Offers</div>
-    <div class="card">24/7 Customer Support</div>
+  <div class="header">
+    <div class="brand">My Club</div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="games.html">Games</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </div>
   </div>
 
-  <footer>
-    © 2025 My Club | All Rights Reserved
-  </footer>
+  <div class="container">
+    <div class="hero">
+      <h1>Welcome to My Club</h1>
+      <p class="small">Play demos, check features — demo site only (no real money).</p>
+      <a class="btn" href="login.html">Login / Register</a>
+      <a class="btn" href="games.html">Play Games (demo)</a>
+    </div>
 
+    <div class="card">
+      <h3>How it works</h3>
+      <p class="small">Use the login page to register. This demo stores user data in the browser only.</p>
+    </div>
+  </div>
+
+  <div class="footer">© 2025 My Club — Demo site</div>
 </body>
 </html>
