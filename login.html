@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Login</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="header">
+    <div class="brand">My Club</div>
+    <div class="nav"><a href="index.html">Home</a><a href="games.html">Games</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+  </div>
+
+  <div class="container">
+    <div class="hero"><h2>Login or Register</h2><p class="small">This demo stores users in your browser only.</p></div>
+
+    <div class="form">
+      <h3>Login</h3>
+      <input id="login-name" class="input" placeholder="Username">
+      <input id="login-pass" class="input" type="password" placeholder="Password">
+      <a class="btn" href="#" onclick="loginUser(event)">Login</a>
+    </div>
+
+    <div class="form">
+      <h3>Register</h3>
+      <input id="reg-name" class="input" placeholder="Choose username">
+      <input id="reg-pass" class="input" type="password" placeholder="Choose password">
+      <a class="btn" href="#" onclick="registerUser(event)">Register</a>
+    </div>
+  </div>
+
+  <div class="footer">© 2025 My Club</div>
+  <script src="auth.js"></script>
+</body>
+</html>
